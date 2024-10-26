@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>RestauranTee</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    
+    header {
+  background-color: #f4a261; /* Change the background color to the previous font color */
+  padding: 20px 40px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  color: #fff; /* Change the font color to white */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff; /* Ensure the header text is white */
+    }
+
+    section {
+      padding: 40px;
+      text-align: center;
+    }
+
+    .hero {
+      background-image: url('matthew-henry-T-G9PVLOfOY-unsplash.jpg'); /* Add your relevant stock imagery URLs here */
+      background-size: cover;
+      background-position: center;
+      background-blend-mode: overlay; /* Blend multiple images if needed for stylistic effect */
+      color: #fff;
+      padding: 150px 0; /* Adjust padding for proper spacing */
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 30px;
+      max-width: 800px;
+      margin: auto;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+      margin-top: 50px;
+    }
+
+    .cta-button {
+      background-color: #f4a261;
+      padding: 15px 15px;
+      border: none;
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 50px; 
+    }
+
+    .cta-button:hover {
+      background-color: #f4a261;
+      margin-top: 50px;
+    }
+
+    .benefits {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 5px;
+    }
+
+    .benefit {
+      max-width: 300px;
+    }
+
+    .benefit h3 {
+      font-size: 24px;
+      margin-bottom: 5px;
+      color: #f4a261;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    footer form {
+      max-width: 400px;
+      margin: auto;
+      text-align: left;
+    }
+
+    footer input, footer textarea {
+      width: 100%;
+      padding: 15px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 5px;
+      box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    footer button {
+      width: 100%;
+      padding: 15px;
+      border: none;
+      background-color: #f4a261;
+      color: #fff;
+      font-size: 18px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    footer button:hover {
+      background-color: #f4a261;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>RestauranTee</h1>
+  <p>Merch from your favorite local spots, delivered to your door</p>
+</header>
+
+<section class="hero">
+  <h2>Your Favorite Local Merch, Made Just for You</h2>
+  <p>Discover exclusive merchandise from your favorite restaurants, bars, and local businesses. Whether you’re a foodie or just love supporting local spots, find something unique and wear your favorite spot with pride.</p>
+  <a href="#signup" class="cta-button">Join the Movement</a>
+</section>
+
+<section class="benefits">
+  <div class="benefit">
+    <h3>For Foodies</h3>
+    <p>Find exclusive, high-quality merchandise from your favorite neighborhood spots.</p>
+  </div>
+  <div class="benefit">
+    <h3>For Businesses</h3>
+    <p>Expand your brand and reach more customers nationwide with our hassle-free platform.</p>
+  </div>
+  <div class="benefit">
+    <h3>For the Community</h3>
+    <p>Support local businesses and show off your favorite places with pride.</p>
+  </div>
+</section>
+
+<footer>
+  <h2>Business Owners: Join RestauranTee</h2>
+  <p>If you own a restaurant, bar, or local business and are interested in selling merchandise on our platform, fill out the form below to learn more:</p>
+  
+  <form id="signup">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="phone">Phone</label>
+    <input type="tel" id="phone" name="phone" required>
+    
+    <button type="submit">Get Started</button>
+  </form>
+</footer>
+
+</body>
+</html>
